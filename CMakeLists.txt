@@ -129,6 +129,8 @@ if (RECASTNAVIGATION_DEMO)
     add_subdirectory(RecastDemo)
 endif()
 
+add_subdirectory(examples)
+
 if (RECASTNAVIGATION_TESTS)
     enable_testing()
     add_subdirectory(Tests)
